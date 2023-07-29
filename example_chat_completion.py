@@ -9,8 +9,8 @@ from llama import Llama
 
 
 def main(
-    ckpt_dir: str,
-    tokenizer_path: str,
+    ckpt_dir: str = 'llama-2-7b',
+    tokenizer_path: str = 'tokenizer.model',
     temperature: float = 0.6,
     top_p: float = 0.9,
     max_seq_len: int = 512,
